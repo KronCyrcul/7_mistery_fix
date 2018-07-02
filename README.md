@@ -14,7 +14,14 @@
 ```
 from quadratic_equation import get_roots
 
-root1, root2 = get_roots(1, -4, 4) # root1 = 2, root2 = None
+# отрицательный дискриминант
+root1, root2 = get_roots(1, 2, 3) # root1 = None, root2 = None
+
+# дискриминант равен нулю
+root3, root4 = get_roots(1, -4, 4) # root3 = 2, root4 = None
+
+# положительный дискриминант
+root5, root6 = get_roots(1, 2, -3) # root5 = -3, root6 = 1
 
 ```
 
